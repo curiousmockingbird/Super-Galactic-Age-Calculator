@@ -17,19 +17,19 @@ describe('Calculator', () => {
   });
 
   test('should return the userAge in Mercury years', () => {
-    expect(calculator.toMercuryYears(userAge)).toEqual(10.8);
+    expect(calculator.toMercuryYears()).toEqual(10.8);
   });
 
   test('should return the userAge in Venus years', () => {
-    expect(calculator.toVenusYears(userAge)).toEqual(27.9);
+    expect(calculator.toVenusYears()).toEqual(27.9);
   });
 
   test('should return the userAge in Mars years', () => {
-    expect(calculator.toMarsYears(userAge)).toEqual(84.6);
+    expect(calculator.toMarsYears()).toEqual(84.6);
   });
 
   test('should return the userAge in Jupiter years', () => {
-    expect(calculator.toJupiterYears(userAge)).toEqual(533.7);
+    expect(calculator.toJupiterYears()).toEqual(533.7);
   });
 
   test('should create a lifeExpForUserOnEarth property for the Calculator class', () => {
@@ -37,7 +37,7 @@ describe('Calculator', () => {
   });
 
   test('should return an array with life expectancy for each planet based on the life exp for the user', () => {
-    expect(calculator.lifeExp(lifeExpForUserOnEarth)).toEqual([21.1, 54.6, 165.4, 1043.7]);
+    expect(calculator.lifeExp()).toEqual([21.1, 54.6, 165.4, 1043.7]);
   });
 
   test('should return an array with the years to live for each planet based on the life exp for the user', () => {
@@ -55,3 +55,5 @@ describe('Calculator', () => {
   }); 
 
 });
+
+// Independent Project objectives reached

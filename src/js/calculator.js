@@ -1,25 +1,26 @@
 export default class Calculator {
+
   constructor(userAge, lifeExpForUserOnEarth) {
     this.userAge = userAge;
     this.lifeExpForUserOnEarth = lifeExpForUserOnEarth;
   }
-  toMercuryYears(userAge) {
+  toMercuryYears() {
     let userAgeToMercuryYears = Math.round((this.userAge * 0.24) * 10) / 10;
     return userAgeToMercuryYears;
   }
-  toVenusYears(userAge) {
+  toVenusYears() {
     let userAgeToVenusYears = Math.round((this.userAge * 0.62) * 10) / 10;
     return userAgeToVenusYears;
   }
-  toMarsYears(userAge) {
+  toMarsYears() {
     let userAgeToMarsYears = Math.round((this.userAge * 1.88) * 10) / 10;
     return userAgeToMarsYears;
   }
-  toJupiterYears(userAge) {
+  toJupiterYears() {
     let userAgeToJupiterYears = Math.round((this.userAge * 11.86) * 10) / 10;
     return userAgeToJupiterYears;
   }
-  lifeExp(lifeExpForUserOnEarth){
+  lifeExp(){
 
     let lifeExpectancyForEachPlanet = [];
     
@@ -55,3 +56,5 @@ export default class Calculator {
   }
 
 }
+
+// Independent Project objectives reached
