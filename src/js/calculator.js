@@ -15,6 +15,7 @@ export default class Calculator {
     return userAgeToMarsYears;
   }
   toJupiterYears(userAge) {
-    
+    let userAgeToJupiterYears = Math.round((this.userAge * 11.86) * 10) / 10;
+    return userAgeToJupiterYears;
   }
 }
