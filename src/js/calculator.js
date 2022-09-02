@@ -20,7 +20,7 @@ export default class Calculator {
     return userAgeToJupiterYears;
   }
   lifeExp(lifeExpForUserOnEarth){
-    
+
     let lifeExpectancyForEachPlanet = [];
     
     let lifeExpMercury = Math.round((this.lifeExpForUserOnEarth * 0.24) * 10) / 10;
@@ -31,6 +31,9 @@ export default class Calculator {
     lifeExpectancyForEachPlanet.push(lifeExpMercury, lifeExpVenus, lifeExpMars, lifeExpJupiter);
 
     return lifeExpectancyForEachPlanet;
+  }
+  yearsToLive () {
+
   }
 
 }

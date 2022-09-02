@@ -40,4 +40,7 @@ describe('Calculator', () => {
     expect(calculator.lifeExp(lifeExpForUserOnEarth)).toEqual([21.1, 54.6, 165.4, 1043.7]);
   });
 
+  test('should return an array with the years to live for each planet based on the life exp for the user', () => {
+    expect(calculator.yearsToLive()).toEqual([10.3, 26.7, 80.8, 510]);
+  });
 });
