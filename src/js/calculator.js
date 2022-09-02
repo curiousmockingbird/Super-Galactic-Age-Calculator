@@ -47,7 +47,11 @@ export default class Calculator {
     return yearsToLiveOnEachPlanet;
   }
   surpassed() {
+    if (this.userAge > this.lifeExpForUserOnEarth) {
     return this.userAge - this.lifeExpForUserOnEarth;
+    } else {
+    return `You'll reach the average life expectancy in ${this.lifeExpForUserOnEarth - this.userAge} years!`;
+    }
   }
 
 }
