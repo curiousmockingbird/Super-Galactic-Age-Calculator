@@ -47,6 +47,6 @@ export default class Calculator {
     return yearsToLiveOnEachPlanet;
   }
   surpassed() {
-    
+    return this.userAge - this.lifeExpForUserOnEarth;
   }
 }

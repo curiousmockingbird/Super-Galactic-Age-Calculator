@@ -7,9 +7,9 @@ describe('Calculator', () => {
   let lifeExpForUserOnEarth;
 
   beforeEach(() => {
+    calculator = new Calculator(45, 88);
     userAge;
     lifeExpForUserOnEarth;
-    calculator = new Calculator(45, 88);
 });
 
   test('should create a Calculator class with a userAge property', () => {
@@ -45,8 +45,9 @@ describe('Calculator', () => {
   });
 
   test('should return the number of years the user has lived past the life expectancy if surpassed', () => {
-    userAge = 100;
+    let calculator = new Calculator(100, 88);
     expect(calculator.surpassed()).toEqual(12);
   });
+
 
 });
