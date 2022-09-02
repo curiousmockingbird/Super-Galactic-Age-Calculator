@@ -1,7 +1,7 @@
 export default class Calculator {
   constructor(userAge, lifeExpForUserOnEarth) {
     this.userAge = userAge;
-
+    this.lifeExpForUserOnEarth = lifeExpForUserOnEarth;
   }
   toMercuryYears(userAge) {
     let userAgeToMercuryYears = Math.round((this.userAge * 0.24) * 10) / 10;
