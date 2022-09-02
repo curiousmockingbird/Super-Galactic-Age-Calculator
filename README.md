@@ -32,5 +32,5 @@
 
 ## License
 
-(MIT)[https://en.wikipedia.org/wiki/MIT_License]
+[MIT](https://en.wikipedia.org/wiki/MIT_License)  
 _Copyright (c) Sep 2, 2022 Harold Mesa_
