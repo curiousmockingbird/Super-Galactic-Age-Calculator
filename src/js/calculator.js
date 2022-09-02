@@ -34,6 +34,17 @@ export default class Calculator {
   }
   yearsToLive () {
 
-  }
+    let yearsToLive = this.lifeExpForUserOnEarth - this.userAge;
+    let yearsToLiveOnEachPlanet = [];
 
+    let yearsToLiveOnMercury = Math.round(( yearsToLive * 0.24) * 10) / 10;
+    let yearsToLiveOnVenus = Math.round(( yearsToLive * 0.62) * 10) / 10;
+    let yearsToLiveOnMars = Math.round(( yearsToLive * 1.88) * 10) / 10;
+    let yearsToLiveOnJupiter = Math.round(( yearsToLive * 11.86) * 10) / 10;
+
+    yearsToLiveOnEachPlanet.push(yearsToLiveOnMercury, yearsToLiveOnVenus, yearsToLiveOnMars, yearsToLiveOnJupiter);
+
+    return yearsToLiveOnEachPlanet;
+  }
+  
 }
