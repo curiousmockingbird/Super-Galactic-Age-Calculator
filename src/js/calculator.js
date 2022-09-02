@@ -49,4 +49,5 @@ export default class Calculator {
   surpassed() {
     return this.userAge - this.lifeExpForUserOnEarth;
   }
+
 }

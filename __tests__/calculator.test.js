@@ -49,5 +49,9 @@ describe('Calculator', () => {
     expect(calculator.surpassed()).toEqual(12);
   });
 
+  test('should return in how many years the user will reach the average life expectancy if not reached yet', () => {
+    let calculator = new Calculator(45, 88);
+    expect(calculator.surpassed()).toEqual(`You'll reach the average life expectancy in 43 years!`);
+  }); 
 
 });
