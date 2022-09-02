@@ -1,7 +1,5 @@
 # Super Galactic Age Calculator
 
-#### Calculates the age of the user in four different planet years.
-
 #### By Harold Mesa
 
 ## Technologies Used
@@ -14,10 +12,12 @@
 * Webpack
 * Git
 
-## Description
+## Description  
 
-## Link to site on GitHubPages:
+Calculates the age of the user in four different planet years.
 
+## Link to site on GitHubPages:  
+[Link](https://curiousmockingbird.github.io/Super-Galactic-Age-Calculator/)  
 
 ## Setup/Installation Requirements
 
