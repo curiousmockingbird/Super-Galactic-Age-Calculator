@@ -19,6 +19,8 @@ export default class Calculator {
     let userAgeToJupiterYears = Math.round((this.userAge * 11.86) * 10) / 10;
     return userAgeToJupiterYears;
   }
- 
+  lifeExp(lifeExpForUserOnEarth){
+    
+  }
 
 }

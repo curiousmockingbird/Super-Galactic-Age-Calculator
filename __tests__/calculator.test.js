@@ -36,4 +36,8 @@ describe('Calculator', () => {
     expect(calculator.lifeExpForUserOnEarth).toEqual(88);
   });
 
+  test('should return an array with life expectancy for each planet based on the life exp for the user', () => {
+    expect(calculator.lifeExp(lifeExpForUserOnEarth)).toEqual([21.1, 54.6, 165.4, 1043.7]);
+  });
+
 });
