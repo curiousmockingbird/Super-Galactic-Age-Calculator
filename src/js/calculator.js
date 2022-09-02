@@ -21,6 +21,16 @@ export default class Calculator {
   }
   lifeExp(lifeExpForUserOnEarth){
     
+    let lifeExpectancyForEachPlanet = [];
+    
+    let lifeExpMercury = Math.round((this.lifeExpForUserOnEarth * 0.24) * 10) / 10;
+    let lifeExpVenus = Math.round((this.lifeExpForUserOnEarth * 0.62) * 10) / 10;
+    let lifeExpMars = Math.round((this.lifeExpForUserOnEarth * 1.88) * 10) / 10;
+    let lifeExpJupiter = Math.round((this.lifeExpForUserOnEarth * 11.86) * 10) / 10;
+
+    lifeExpectancyForEachPlanet.push(lifeExpMercury, lifeExpVenus, lifeExpMars, lifeExpJupiter);
+
+    return lifeExpectancyForEachPlanet;
   }
 
 }
