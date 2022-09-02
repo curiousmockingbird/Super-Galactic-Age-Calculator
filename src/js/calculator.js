@@ -10,4 +10,8 @@ export default class Calculator {
     let userAgeToVenusYears = Math.round((this.userAge * 0.62) * 10) / 10;
     return userAgeToVenusYears;
   }
+  toMarsYears(userAge) {
+    
+  }
+
 }
