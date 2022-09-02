@@ -44,4 +44,9 @@ describe('Calculator', () => {
     expect(calculator.yearsToLive()).toEqual([10.3, 26.7, 80.8, 510]);
   });
 
+  test('should return the number of years the user has lived past the life expectancy if surpassed', () => {
+    userAge = 100;
+    expect(calculator.surpassed()).toEqual(12);
+  });
+
 });

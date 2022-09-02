@@ -46,5 +46,7 @@ export default class Calculator {
 
     return yearsToLiveOnEachPlanet;
   }
-  
+  surpassed() {
+    
+  }
 }
