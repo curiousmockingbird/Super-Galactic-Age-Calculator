@@ -1,29 +1,36 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### Calculates the age of the user in four different planet years.
 
-#### By (Your Name Here)
+#### By Harold Mesa
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Jest
+* Webpack
+* Git
 
 ## Description
 
+## Link to site on GitHubPages:
+
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone this repository to your desktop._
+* _Navigate to the top level of the directory._
+* _Open index.html in your browser._
+* _Input your age._
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Application works as expected_
 
 ## License
+
+(MIT)[https://en.wikipedia.org/wiki/MIT_License]
+_Copyright (c) Sep 2, 2022 Harold Mesa_
