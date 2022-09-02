@@ -4,10 +4,12 @@ describe('Calculator', () => {
 
   let calculator = new Calculator();
   let userAge;
+  let lifeExpForUserOnEarth;
 
   beforeEach(() => {
-  calculator = new Calculator(45);
+  calculator = new Calculator(45, 88);
   userAge;
+  lifeExpForUserOnEarth;
 });
 
   test('should create a Calculator class with a userAge property', () => {
@@ -29,4 +31,9 @@ describe('Calculator', () => {
   test('should return the userAge in Jupiter years', () => {
     expect(calculator.toJupiterYears(userAge)).toEqual(533.7);
   });
+
+  test('should create a life expectancy function', () => {
+    expect(calculator.lifeExp(lifeExpForUserOnEarth)).toEqual(88);
+  });
+
 });
