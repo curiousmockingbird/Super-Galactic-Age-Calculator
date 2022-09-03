@@ -16,8 +16,6 @@
 
 Calculates the age of the user in four different planet years.
 
-## Link to site on GitHubPages:  
-
 
 ## Setup/Installation Requirements
 
