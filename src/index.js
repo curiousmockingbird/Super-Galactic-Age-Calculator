@@ -21,6 +21,7 @@ function handleFormSubmission(event) {
 
 
   document.getElementById("results").removeAttribute("class", "hidden");
+  window.scrollBy(0,250);
   return calculator;
 }
 
