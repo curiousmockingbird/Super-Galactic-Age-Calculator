@@ -20,8 +20,16 @@
   background-color: rgba(161, 237, 250, 0.65);
 }
 
+.text2 {
+  margin-top: 21%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  text-align: center;  
+  background-color: rgba(161, 237, 250, 0.65);
+}
+
 span {
-  color:aliceblue;
+  color:black;
 }
 
 .hidden {

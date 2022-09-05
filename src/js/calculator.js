@@ -49,9 +49,9 @@ export default class Calculator {
   }
   surpassed() {
     if (this.userAge > this.lifeExpForUserOnEarth) {
-    return this.userAge - this.lifeExpForUserOnEarth;
+      return `Amazing, it looks like<br> you have surpassed the average life expectancy by ${this.userAge - this.lifeExpForUserOnEarth} years!` ;
     } else {
-    return `You'll reach the average life expectancy in ${this.lifeExpForUserOnEarth - this.userAge} years!`;
+      return `You'll reach your average life expectancy in ${this.lifeExpForUserOnEarth - this.userAge} years!`;
     }
   }
 

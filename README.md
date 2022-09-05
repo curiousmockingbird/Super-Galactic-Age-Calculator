@@ -14,7 +14,7 @@
 
 ## Description  
 
-Calculates the age of the user in four different planet years.
+The Galactic Age Calculator offers the age of the user in four different planet years. Then, it prompts them to input their life expectancy. If the user's age exceeds their average life expectancy, it lets them know by how many years they have surpassed it. Else, if the age of the user hasn't reached it yet, it tells in how many years they'll get to that age. Also, it calculates in how many years they would reach that age in the four different planet years.
 
 
 ## Setup/Installation Requirements
