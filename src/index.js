@@ -24,6 +24,7 @@ function handleFormSubmission(event) {
 
 
   document.getElementById("results").removeAttribute("class", "hidden");
+  document.querySelector("form#form1").reset();
   window.scrollBy(0,250);
 }
 
@@ -49,9 +50,8 @@ function handleSecondForm(event) {
   `;
   }
   
-  
-
   document.getElementById("results2").removeAttribute("class", "hidden");
+  document.querySelector("form#form1").reset();
   window.scrollBy(0,1250);
 }
 
