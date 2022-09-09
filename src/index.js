@@ -24,7 +24,6 @@ function handleFormSubmission(event) {
 
 
   document.getElementById("results").removeAttribute("class", "hidden");
-  document.querySelector("form#form1").reset();
   window.scrollBy(0,250);
 }
 
