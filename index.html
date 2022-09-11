@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Galactic Age Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 align">
+        <form id="form1">
+          <h1>Galactic Age Calculator</h1>
+          <h3>Input your age, and see how old you'd be<br> if you lived in Mercury, Venus, Mars or Jupiter...</h3>
+          <label for="ageInput"><input type="number" id="ageInput" required></label><br>
+          <button type="submit">Submit</button><br><br>
+        </form>
+      </div>
+    </div>
+    <div class="row hidden" id="results">
+      <div class="z-index1" style="margin-left: 220px;">
+        <h3 class="text1"><span id="text1"></span></h3>
+      </div>
+      <div><img src="assets/images/galaxy.jpg" alt="Image of galaxy" width="100%"></div>
+      <div class="align">
+        <form id="form2">
+          <h3>Input your life expectancy...</h3>
+          <label for="lifeExpInput"><input type="number" id="lifeExpInput" required></label><br>
+          <button type="submit">Submit</button><br><br>
+        </form>
+      </div>
+      <div class="row hidden" id="results2">
+        <div class="z-index1" style="margin-left: 130px; width: 60%;">
+          <h4 class="text2"><span id="text2"></span></h4>
+        </div>
+        <div><img src="assets/images/galaxy.jpg" alt="Image of galaxy" width="100%"></div>
+      </div><br><br>
+    </div>
+<script src="bundle.js"></script></body>
+
+</html>
