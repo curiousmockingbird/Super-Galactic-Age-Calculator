@@ -26,7 +26,7 @@ The Galactic Age Calculator offers the age of the user in four different planet 
 
 ## Known Bugs
 
-* _Application works as expected. However, for some inexplicable reason, gh-pages is not working for me. The deployment is a link to the README.md document instead of the actual webpage. In order to see the actual deployment, please 1) run $ npm install and then 2) $ npm start after cloning the repository to your desktop._
+* _Application works as expected._
 
 ## License
 
